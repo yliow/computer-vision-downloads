@@ -11,6 +11,7 @@ s = r'''
 /home/student/shares/yliow/Documents/work/projects/computer-vision/doc/images/volcanic-mt-ngauruhoe.jpg
 /home/student/shares/yliow/Documents/work/projects/computer-vision/doc/videos/blooming-flowers.mp4
 /home/student/shares/yliow/Documents/work/projects/computer-vision/doc/video/video/video.mp4
+/home/student/yliow/Documents/work/projects/computer-vision/doc/trackbar/trackbar/trackbar.mp4
 '''
 
 import os
