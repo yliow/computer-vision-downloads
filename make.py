@@ -12,8 +12,9 @@ lines = [_.strip() for _ in lines if _.strip() != '']
 for line in lines:
     line2 = line.replace('/computer-vision/doc/', '/computer-vision-downloads/cpp/')
     # makedirs
-    dirs = os.path.split(line2)
+    dirs = os.path.split(line2)[0] + '/'
     print("dirs:", dirs)
+    os.makedirs(dirs, exist_ok=True)
     cmd = 'cp "%s" "%s"' % (line, line2)
     print(cmd)
     os.system(cmd)
